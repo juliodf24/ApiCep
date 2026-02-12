@@ -1,0 +1,29 @@
+{
+  "name": "apicep",
+  "version": "1.0.0",
+  "description": "API de cep",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/servidor.js",
+    "test": "tsnd --transpile-only --respawn --ignore-watch node_modules src/servidor.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliodf24/ApiCep.git"
+  },
+  "author": "júlio césar",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.1.0",
+    "express": "^4.21.1",
+    "uuid": "^11.0.3",
+    "zod": "^3.24.1"
+  }
+}
